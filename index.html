@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAHAYA RESTAURANT</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #d32f2f;
+      color: #fff;
+      padding: 25px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('images/hero.jpg') center/cover no-repeat;
+      height: 380px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+      font-size: 36px;
+      font-weight: bold;
+    }
+    .menu-section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 30px;
+      color: #d32f2f;
+    }
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .menu-item {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .menu-item img {
+      width:100%;
+      border-radius:10px;
+      margin-bottom:10px;
+    }
+    .menu-item h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+    .price {
+      font-weight: bold;
+      color: #d32f2f;
+      font-size: 18px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+      margin-top: 40px;
+    }
+    .whatsapp-button {
+      display:inline-block;
+      margin-top:10px;
+      padding:12px 20px;
+      background:#25D366;
+      color:white;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>CAHAYA RESTAURANT</header>
+<div class="hero">Cita Rasa Indonesia di Tanah Arab</div>
+
+<section class="menu-section">
+  <h2>Menu Makanan</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><img src="images/sop_buntut.jpg" alt="Sop Buntut"><h3>Sop Buntut</h3><div class="price">18 SAR</div></div>
+    <div class="menu-item"><img src="images/bebek_goreng.jpg" alt="Bebek Goreng"><h3>Bebek Goreng</h3><div class="price">22 SAR</div></div>
+    <div class="menu-item"><img src="images/mie_goreng.jpg" alt="Mie Goreng"><h3>Mie Goreng</h3><div class="price">15 SAR</div></div>
+    <div class="menu-item"><img src="images/ayam_goreng.jpg" alt="Ayam Bakar / Goreng"><h3>Ayam Bakar / Goreng</h3><div class="price">17 SAR</div></div>
+    <div class="menu-item"><img src="images/rawon.jpg" alt="Rawon"><h3>Rawon</h3><div class="price">17 SAR</div></div>
+    <div class="menu-item"><img src="images/sate.jpg" alt="Sate Ayam / Daging"><h3>Sate Ayam / Daging</h3><div class="price">20 SAR</div></div>
+    <div class="menu-item"><img src="images/ikan.jpg" alt="Ikan Bakar / Goreng"><h3>Ikan Bakar / Goreng</h3><div class="price">30 SAR</div></div>
+    <div class="menu-item"><img src="images/sop_kikil.jpg" alt="Sop Kikil"><h3>Sop Kikil</h3><div class="price">17 SAR</div></div>
+    <div class="menu-item"><img src="images/soto_ayam.jpg" alt="Soto Ayam"><h3>Soto Ayam</h3><div class="price">17 SAR</div></div>
+    <div class="menu-item"><img src="images/bakso.jpg" alt="Bakso"><h3>Bakso</h3><div class="price">15 SAR</div></div>
+    <div class="menu-item"><img src="images/soto_babat.jpg" alt="Soto Babat"><h3>Soto Babat</h3><div class="price">17 SAR</div></div>
+    <div class="menu-item"><img src="images/mie_ayam_bakso.jpg" alt="Mie Ayam Bakso"><h3>Mie Ayam Bakso</h3><div class="price">18 SAR</div></div>
+    <div class="menu-item"><img src="images/pecel_lele.jpg" alt="Pecel Lele"><h3>Pecel Lele</h3><div class="price">25 SAR</div></div>
+    <div class="menu-item"><img src="images/nasi_goreng.jpg" alt="Nasi Goreng"><h3>Nasi Goreng</h3><div class="price">17 SAR</div></div>
+    <div class="menu-item"><img src="images/ayam_geprek.jpg" alt="Ayam Geprek"><h3>Ayam Geprek</h3><div class="price">17 SAR</div></div>
+  </div>
+</section>
+
+<section class="menu-section">
+  <h2>Menu Minuman</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><img src="images/es_cappuccino.jpg" alt="Es Cappuccino"><h3>Es Cappuccino</h3><div class="price">7 SAR</div></div>
+    <div class="menu-item"><img src="images/soda_susu.jpg" alt="Soda Susu"><h3>Soda Susu</h3><div class="price">9 SAR</div></div>
+    <div class="menu-item"><img src="images/es_teh_lemon.jpg" alt="Es Teh Lemon"><h3>Es Teh Lemon</h3><div class="price">6 SAR</div></div>
+    <div class="menu-item"><img src="images/es_campur.jpg" alt="Es Campur"><h3>Es Campur</h3><div class="price">8 SAR</div></div>
+    <div class="menu-item"><img src="images/es_cendol.jpg" alt="Es Cendol"><h3>Es Cendol</h3><div class="price">7 SAR</div></div>
+    <div class="menu-item"><img src="images/es_teh.jpg" alt="Es Teh"><h3>Es Teh</h3><div class="price">5 SAR</div></div>
+  </div>
+</section>
+
+<footer>
+  <a href="https://wa.me/966501385612" class="whatsapp-button">Order via WhatsApp</a>
+  <p>© 2025 CAHAYA RESTAURANT — Nikmati rasa asli Indonesia!</p>
+</footer>
+
+</body>
+</html>
